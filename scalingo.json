@@ -1,0 +1,44 @@
+{
+    "name": "Telethon Music Bot",
+    "description": "Music allow you to stream music trought the telegram voice chat feature Based on Telethon.",
+    "keywords": ["Zaid", "Zaid-Vc-Player", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "telethon"],
+    "repository": "https://github.com/lord-idoq1/bot-music",
+  "stack": "container",
+    "env": {
+        "STRING_SESSION": {
+            "description": "fill with the telethon session string from https://replit.com/@Itz-zaid/Generator",
+            "required": true
+        },
+        "HEROKU_MODE": {
+            "description": "Don't Change this!",
+            "required": true,
+            "value": "ENABLE"
+        },
+        "SUPPORT": {
+            "description": "Fill there your group username else leave",
+            "required": false,
+            "value": "Skyzo_Musicbot"
+        },
+        "CHANNEL": {
+            "description": "Fill there your Channel username else leave",
+            "required": false,
+            "value": "Skyzo_Musicbot"
+        },
+        "BOT_USERNAME": {
+            "description": "Fill there your bot username",
+            "required": false,
+            "value": "Skyzo_Musicbot"
+        },
+        "ASSISTANT_ID": {
+            "description": "Fill there your Assistant id",
+            "required": true,
+            "value": "5702610439"
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": "5893743036:AAETdm2RTVOrNMjb-IRFn0PBHUVVnvlKN58"
+  }
+
+    }
+  }
